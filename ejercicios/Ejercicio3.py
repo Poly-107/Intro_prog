@@ -39,3 +39,5 @@ def definir_impuesto(sueldo):
 sueldo_ingresado = int(input("ingrese su sueldo: "))
 
 definir_impuesto(sueldo_ingresado)
+
+print()
