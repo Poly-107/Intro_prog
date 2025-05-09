@@ -4,7 +4,7 @@
 # Si la función que quieres llamar está dentro de tu misma carpeta
 # solo necesitas "From [pograma] import [función]"
 
-from funciones_original import operar as ope
+from modulos.funciones_original import operar as ope
 
 respuesta = "SI"
 while True:
