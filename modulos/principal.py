@@ -4,7 +4,6 @@ def bienvenida():
     print()
     print("Bienvenido a la Super Calculadora Python")
     print("=============================================")
-    print()
 
 def menu():
     print()
@@ -28,15 +27,19 @@ def ejecutar_calculadora():
 
         resultado = 0
         operacion = ""
+
         if opcion == "1":
             resultado = operacion_suma.op_suma(num_1, num_2)
-            operación = "+"
+            operacion = "+"
         elif opcion == "2":
-            pass
+            resultado = operacion_suma.op_resta(num_1, num_2)
+            operacion = "-"
         elif opcion == "3":
-            pass
+            resultado = operacion_suma.op_multiplicacion(num_1, num_2)
+            operacion = "*"
         elif opcion == "4":
-            pass
+            resultado = operacion_suma.op_division(num_1, num_2)
+            operacion = "/"
         elif opcion == "0":
             print("Saliendo de la calculadora...")
             break
