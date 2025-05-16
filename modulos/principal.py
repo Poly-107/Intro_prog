@@ -2,12 +2,12 @@ import operacion_suma
 
 def bienvenida():
     print()
-    print("Bienvenido a la Super Calculadora Python")
-    print("=============================================")
+    print("Super calculadora Python")
+    print("**===**===**===**===**===**===**===**")
 
 def menu():
     print()
-    print("Super Calculadora Python")
+    print("Super calculadora Python")
     print("Seleccione una operación: ")
     print("1: suma")
     print("2: resta")
