@@ -1,1 +1,1 @@
-asig= ["Biologia", "Fisica", "Quimica"]
+asignaturas = ['Biologia', 'Fisica', 'Quimica', 'Matematicas', 'Lenguaje', '& C:/Users/Leona/Appdata/Local/Microsoft/Windowsapps/Python3.11.Exe C:/Fund_Pro/Gestion_Notas/Principal.Py']

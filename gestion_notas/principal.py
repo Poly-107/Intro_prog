@@ -1,5 +1,5 @@
 import os
-from datos.asignaturas import asig as asignaturas
+from datos.asignaturas import asignaturas
 
 def obetener_listado_asignaturas():
     print()
@@ -32,10 +32,4 @@ def guardar_nueva_asignatura():
     archivo.close()
     obetener_listado_asignaturas()
 
-obetener_listado_asignaturas()
-
 guardar_nueva_asignatura()
-
-obetener_listado_asignaturas()
-
-print()
